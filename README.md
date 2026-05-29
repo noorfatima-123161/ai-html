@@ -92,4 +92,4 @@ These deprecated elements are no longer considered best practice in modern HTML5
 ## Video Demonstration
 
 Video Link for Version B of AI-Coded Assignment:
-
+https://www.loom.com/share/02b02031ac1c42f386283ccdf6182e62
