@@ -93,4 +93,3 @@ These deprecated elements are no longer considered best practice in modern HTML5
 
 Video Link for Version B of AI-Coded Assignment:
 
-https://youtu.be/PBIhkMUTED4?si=S6uHxmos5nC1dr0H
