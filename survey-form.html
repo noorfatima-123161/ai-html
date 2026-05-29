@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Survey Form</title>
+</head>
+
+<body>
+
+    <center>
+
+        <h1>Survey Form</h1>
+
+        <p>Let us know how we can improve freeCodeCamp</p>
+
+        <form>
+
+            <table cellspacing="12">
+
+                <!-- Name -->
+                <tr>
+                    <td align="right" width="350">
+                        <label for="name">* Name:</label>
+                    </td>
+
+                    <td>
+                        <input type="text" id="name" placeholder="Enter your name" size="35">
+                    </td>
+                </tr>
+
+                <!-- Email -->
+                <tr>
+                    <td align="right">
+                        <label for="email">* Email:</label>
+                    </td>
+
+                    <td>
+                        <input type="email" id="email" placeholder="Enter your Email" size="35">
+                    </td>
+                </tr>
+
+                <!-- Age -->
+                <tr>
+                    <td align="right">
+                        <label for="age">* Age:</label>
+                    </td>
+
+                    <td>
+                        <input type="number" id="age" placeholder="Age" size="35">
+                    </td>
+                </tr>
+
+                <!-- Role -->
+                <tr>
+                    <td align="right">
+                        <label for="role">
+                            Which option best describes your current role?
+                        </label>
+                    </td>
+
+                    <td>
+                        <select id="role">
+                            <option>Student</option>
+                            <option>Teacher</option>
+                            <option>Developer</option>
+                            <option>Other</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <!-- Recommend -->
+                <tr>
+                    <td align="right" valign="top">
+                        * How likely is that you would recommend
+                        freeCodeCamp to a friend?
+                    </td>
+
+                    <td>
+                        <input type="radio" id="definitely" name="recommend">
+                        <label for="definitely">Definitely</label>
+
+                        <br><br>
+
+                        <input type="radio" id="maybe" name="recommend">
+                        <label for="maybe">Maybe</label>
+
+                        <br><br>
+
+                        <input type="radio" id="notsure" name="recommend">
+                        <label for="notsure">Not sure</label>
+                    </td>
+                </tr>
+
+                <!-- Like Most -->
+                <tr>
+                    <td align="right">
+                        <label for="like">
+                            What do you like most in FCC:
+                        </label>
+                    </td>
+
+                    <td>
+                        <select id="like">
+                            <option>Select an option</option>
+                            <option>Projects</option>
+                            <option>Community</option>
+                            <option>Courses</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <!-- Improvements -->
+                <tr>
+                    <td align="right" valign="top">
+                        Things that should be improved in the future
+                        (Check all that apply):
+                    </td>
+
+                    <td>
+                        <input type="checkbox" id="frontend">
+                        <label for="frontend">Front-end Projects</label>
+
+                        <br><br>
+
+                        <input type="checkbox" id="backend">
+                        <label for="backend">Back-end Projects</label>
+
+                        <br><br>
+
+                        <input type="checkbox" id="data">
+                        <label for="data">Data Visualization</label>
+
+                        <br><br>
+
+                        <input type="checkbox" id="challenges">
+                        <label for="challenges">Challenges</label>
+
+                        <br><br>
+
+                        <input type="checkbox" id="opensource">
+                        <label for="opensource">Open Source Community</label>
+                    </td>
+                </tr>
+
+                <!-- Comments -->
+                <tr>
+                    <td align="right" valign="top">
+                        <label for="comments">
+                            Any Comments or Suggestions?
+                        </label>
+                    </td>
+
+                    <td>
+                        <textarea id="comments" rows="5" cols="35"></textarea>
+                    </td>
+                </tr>
+
+                <!-- Submit -->
+                <tr>
+                    <td></td>
+
+                    <td>
+                        <input type="submit" value="Submit">
+                    </td>
+                </tr>
+
+            </table>
+
+        </form>
+
+    </center>
+
+</body>
+
+</html>
